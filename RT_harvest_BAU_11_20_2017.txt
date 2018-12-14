@@ -1,0 +1,399 @@
+LandisData  "Biomass Harvest"
+Timestep    5
+ManagementAreas "Y:/LANDIS_INPUTS/input_rasters/man_area_OWN_STATES11_17_2016A.img"
+Stands      "Y:/LANDIS_INPUTS/input_rasters/stands_11_17_2016A.img" 
+>> PRESCRIPTIONS
+>> ----------------------------------------------------------------------------------------------------------------------
+     Prescription ClearcutAll_500 << Prescription Map Code=2
+StandRanking Random
+MinimumAge 5
+MaximumAge 500
+SiteSelection PartialStandSpread 1 1
+CohortsRemoved ClearCut
+ 
+     Prescription ClearcutMost_500 << Prescription Map Code=3
+StandRanking Random
+MinimumAge 5
+MaximumAge 500
+SiteSelection PartialStandSpread 1 1
+CohortsRemoved SpeciesList
+abiebals  1-19 (20%) 20-500
+acerrubr  1-19 (20%) 20-500
+acersacc  1-19 (20%) 20-500
+betualle  1-19 (20%) 20-500
+betulent  1-19 (20%) 20-500
+betupapy  1-19 (20%) 20-500
+betupopu  1-19 (20%) 20-500
+caryglab  1-19 (20%) 20-500
+fagugran  1-19 (20%) 20-500
+fraxamer  1-19 (20%) 20-500
+fraxnigr  1-19 (20%) 20-500
+larilari  1-19 (20%) 20-500
+ostrvirg  1-19 (20%) 20-500
+piceglau  1-19 (20%) 20-500
+picemari  1-19 (20%) 20-500
+picerube  1-19 (20%) 20-500
+pinuresi  1-19 (20%) 20-500
+pinurigi  1-19 (20%) 20-500
+pinustro  1-19 (20%) 20-500
+popubals  1-19 (20%) 20-500
+popugran  1-19 (20%) 20-500
+poputrem  1-19 (20%) 20-500
+prunsero  1-19 (20%) 20-500
+queralba  1-19 (20%) 20-500
+quercocc  1-19 (20%) 20-500
+querprin  1-19 (20%) 20-500
+querrubr  1-19 (20%) 20-500
+quervelu  1-19 (20%) 20-500
+thujocci  1-19 (20%) 20-500
+tiliamer  1-19 (20%) 20-500
+tsugcana  1-19 (20%) 20-500
+ulmuamer  1-19 (20%) 20-500
+pinutaed  1-19 (20%) 20-500
+ 
+     Prescription Shelterwood_500 << Prescription Map Code=4
+StandRanking Random
+MinimumAge 5
+MaximumAge 500
+SiteSelection PartialStandSpread 1 1
+CohortsRemoved SpeciesList
+abiebals  20-500 (60%)
+acerrubr  20-500 (60%)
+acersacc  20-500 (60%)
+betualle  20-500 (60%)
+betulent  20-500 (60%)
+betupapy  20-500 (60%)
+betupopu  20-500 (60%)
+caryglab  20-500 (60%)
+fagugran  20-500 (60%)
+fraxamer  20-500 (60%)
+fraxnigr  20-500 (60%)
+larilari  20-500 (60%)
+ostrvirg  20-500 (60%)
+piceglau  20-500 (60%)
+picemari  20-500 (60%)
+picerube  20-500 (60%)
+pinuresi  20-500 (60%)
+pinurigi  20-500 (60%)
+pinustro  20-500 (60%)
+popubals  20-500 (60%)
+popugran  20-500 (60%)
+poputrem  20-500 (60%)
+prunsero  20-500 (60%)
+queralba  20-500 (60%)
+quercocc  20-500 (60%)
+querprin  20-500 (60%)
+querrubr  20-500 (60%)
+quervelu  20-500 (60%)
+thujocci  20-500 (60%)
+tiliamer  20-500 (60%)
+tsugcana  20-500 (60%)
+ulmuamer  20-500 (60%)
+pinutaed  20-500 (60%)
+ 
+     Prescription Highgrade_500 << Prescription Map Code=5
+StandRanking Random
+MinimumAge 5
+MaximumAge 500
+ForestTypeTable
+Required 30-500 90 acersacc betualle pinustro querrubr
+SiteSelection PartialStandSpread 1 1
+CohortsRemoved SpeciesList
+abiebals 30-500 (0%)
+acerrubr 30-500 (0%)
+acersacc 30-500 
+betualle 30-500 
+betulent 30-500 (0%)
+betupapy 30-500 (0%)
+betupopu 30-500 (0%)
+caryglab 30-500 (0%)
+fagugran 30-500 (0%)
+fraxamer 30-500 (0%)
+fraxnigr 30-500 (0%)
+larilari 30-500 (0%)
+ostrvirg 30-500 (0%)
+piceglau 30-500 (0%)
+picemari 30-500 (0%)
+picerube 30-500 (0%)
+pinuresi 30-500 (0%)
+pinurigi 30-500 (0%)
+pinustro 80-500
+popubals 30-500 (0%)
+popugran 30-500 (0%)
+poputrem 30-500 (0%)
+prunsero 30-500 (0%)
+queralba 30-500 (0%)
+quercocc 30-500 (0%)
+querprin 30-500 (0%)
+querrubr 30-500 
+quervelu 30-500 (0%)
+thujocci 30-500 (0%)
+tiliamer 30-500 (0%)
+tsugcana 30-500 (0%)
+ulmuamer 30-500 (0%)
+pinutaed 30-500 (0%)
+ 
+     Prescription ThinEvenage_500 << Prescription Map Code=6
+StandRanking Random
+MinimumAge 5
+MaximumAge 500
+SiteSelection PartialStandSpread 1 1
+CohortsRemoved SpeciesList
+abiebals 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+acerrubr 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+acersacc 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+betualle 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+betulent 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+betupapy 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+betupopu 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+caryglab 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+fagugran 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+fraxamer 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+fraxnigr 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+larilari 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+ostrvirg 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+piceglau 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+picemari 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+picerube 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+pinuresi 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+pinurigi 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+pinustro 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+popubals 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+popugran 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+poputrem 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+prunsero 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+queralba 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+quercocc 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+querprin 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+querrubr 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+quervelu 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+thujocci 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+tiliamer 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+tsugcana 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+ulmuamer 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+pinutaed 30-129 (30%) 130-149 (6%) 150-500 (5%)  
+ 
+     Prescription ThinUnevenage_500 << Prescription Map Code=7
+StandRanking Random
+MinimumAge 5
+MaximumAge 500
+SiteSelection PartialStandSpread 1 1
+CohortsRemoved SpeciesList
+abiebals 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+acerrubr 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+acersacc 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+betualle 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+betulent 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+betupapy 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+betupopu 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+caryglab 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+fagugran 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+fraxamer 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+fraxnigr 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+larilari 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+ostrvirg 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+piceglau 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+picemari 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+picerube 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+pinuresi 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+pinurigi 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+pinustro 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+popubals 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+popugran 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+poputrem 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+prunsero 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+queralba 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+quercocc 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+querprin 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+querrubr 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+quervelu 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+thujocci 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+tiliamer 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+tsugcana 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+ulmuamer 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+pinutaed 30-59 (8%) 60-129 (7%) 130-149 (6%) 150-500 (5%)  
+ 
+     Prescription SugarBush_500 << Prescription Map Code=8
+StandRanking Random
+MinimumAge 5
+MaximumAge 500
+ForestTypeTable
+Required 30-500 90 acersacc
+SiteSelection PartialStandSpread 1 1
+CohortsRemoved SpeciesList
+abiebals 30-500 
+acerrubr 30-500 
+acersacc 5-30 (50%)
+betualle 30-500 
+betulent 30-500 
+betupapy 30-500 
+betupopu 30-500 
+caryglab 30-500 
+fagugran 30-500 
+fraxamer 30-500 
+fraxnigr 30-500 
+larilari 30-500 
+ostrvirg 30-500 
+piceglau 30-500 
+picemari 30-500 
+picerube 30-500 
+pinuresi 30-500 
+pinurigi 30-500 
+pinustro 30-500 
+popubals 30-500 
+popugran 30-500 
+poputrem 30-500 
+prunsero 30-500 
+queralba 30-500 
+quercocc 30-500 
+querprin 30-500 
+querrubr 30-500 
+quervelu 30-500 
+thujocci 30-500 
+tiliamer 30-500 
+tsugcana 30-500 
+ulmuamer 30-500 
+pinutaed 30-500 
+ 
+     Prescription MoreLeaveTree_500 << Prescription Map Code=9
+StandRanking Random
+MinimumAge 5
+MaximumAge 500
+SiteSelection PartialStandSpread 1 1
+CohortsRemoved SpeciesList
+abiebals  20-500 (40%)
+acerrubr  20-500 (40%)
+acersacc  20-500 (40%)
+betualle  20-500 (40%)
+betulent  20-500 (40%)
+betupapy  20-500 (40%)
+betupopu  20-500 (40%)
+caryglab  20-500 (40%)
+fagugran  20-500 (40%)
+fraxamer  20-500 (40%)
+fraxnigr  20-500 (40%)
+larilari  20-500 (40%)
+ostrvirg  20-500 (40%)
+piceglau  20-500 (40%)
+picemari  20-500 (40%)
+picerube  20-500 (40%)
+pinuresi  20-500 (40%)
+pinurigi  20-500 (40%)
+pinustro  20-500 (40%)
+popubals  20-500 (40%)
+popugran  20-500 (40%)
+poputrem  20-500 (40%)
+prunsero  20-500 (40%)
+queralba  20-500 (40%)
+quercocc  20-500 (40%)
+querprin  20-500 (40%)
+querrubr  20-500 (40%)
+quervelu  20-500 (40%)
+thujocci  20-500 (40%)
+tiliamer  20-500 (40%)
+tsugcana  20-500 (40%)
+ulmuamer  20-500 (40%)
+pinutaed  20-500 (40%)
+ 
+     Prescription HighGradePlus_500 << Prescription Map Code=10
+StandRanking Random
+MinimumAge 5
+MaximumAge 500
+SiteSelection PartialStandSpread 1 1
+CohortsRemoved SpeciesList
+abiebals 30-500 (50%)
+acerrubr 30-500 (50%)
+acersacc 30-500 (80%)
+betualle 30-500 (80%)
+betulent 30-500 (50%)
+betupapy 30-500 (50%)
+betupopu 30-500 (50%)
+caryglab 30-500 (50%)
+fagugran 30-500 (50%)
+fraxamer 30-500 (50%)
+fraxnigr 30-500 (50%)
+larilari 30-500 (50%)
+ostrvirg 30-500 (50%)
+piceglau 30-500 (50%)
+picemari 30-500 (50%)
+picerube 30-500 (50%)
+pinuresi 30-500 (50%)
+pinurigi 30-500 (50%)
+pinustro 80-500 (80%)
+popubals 30-500 (50%)
+popugran 30-500 (50%)
+poputrem 30-500 (50%)
+prunsero 30-500 (50%)
+queralba 30-500 (50%)
+quercocc 30-500 (50%)
+querprin 30-500 (50%)
+querrubr 30-500 (80%)
+quervelu 30-500 (50%)
+thujocci 30-500 (50%)
+tiliamer 30-500 (50%)
+tsugcana 30-500 (50%)
+ulmuamer 30-500 (50%)
+pinutaed 30-500 (50%)
+ 
+     Prescription CutPlant_500 << Prescription Map Code=11
+StandRanking Random
+MinimumAge 5
+MaximumAge 500
+SiteSelection PartialStandSpread 1 1
+CohortsRemoved ClearCut
+Plant pinutaed
+ 
+     Prescription FireWoodCutting_500 << Prescription Map Code=12
+StandRanking Random
+MinimumAge 5
+MaximumAge 500
+SiteSelection PartialStandSpread 1 1
+CohortsRemoved SpeciesList
+abiebals 50-500 (0%)
+acerrubr 50-500 (5%)
+acersacc 50-500 (5%)
+betualle 50-500 (5%)
+betulent 50-500 (0%)
+betupapy 50-500 (5%)
+betupopu 50-500 (0%)
+caryglab 50-500 (5%)
+fagugran 50-500 (5%)
+fraxamer 50-500 (5%)
+fraxnigr 50-500 (5%)
+larilari 50-500 (5%)
+ostrvirg 50-500 (5%)
+piceglau 50-500 (0%)
+picemari 50-500 (0%)
+picerube 50-500 (0%)
+pinuresi 50-500 (0%)
+pinurigi 50-500 (0%)
+pinustro 50-500 (0%)
+popubals 50-500 (0%)
+popugran 50-500 (0%)
+poputrem 50-500 (0%)
+prunsero 50-500 (5%)
+queralba 50-500 (5%)
+quercocc 50-500 (5%)
+querprin 50-500 (5%)
+querrubr 50-500 (5%)
+quervelu 50-500 (5%)
+thujocci 50-500 (5%)
+tiliamer 50-500 (5%)
+tsugcana 50-500 (0%)
+ulmuamer 50-500 (5%)
+pinutaed 50-500 (0%)
+ 
+>> PRESCRIPTION IMPLEMENTATION
+>> ----------------------------------------------------------------------------------------------------------------------------------
+HarvestImplementations
+>>Mgmt_area  Prescription   Harvest_area_percent  begin_year  end_year
+101	ClearcutAll_500	2.859%	0 9	<<ME_1_Co_Maine101	ClearcutMost_500	4.222%	0 9	<<ME_1_Co_Maine101	Shelterwood_500	2.375%	0 9	<<ME_1_Co_Maine101	Highgrade_500	0.792%	0 9	<<ME_1_Co_Maine101	ThinEvenage_500	4.794%	0 9	<<ME_1_Co_Maine101	ThinUnevenage_500	0.792%	0 9	<<ME_1_Co_Maine102	Shelterwood_500	0.204%	0 9	<<ME_1_Fe_Maine102	Highgrade_500	0.037%	0 9	<<ME_1_Fe_Maine102	ThinEvenage_500	3.759%	0 9	<<ME_1_Fe_Maine102	ThinUnevenage_500	2.667%	0 9	<<ME_1_Fe_Maine103	ClearcutAll_500	0.56%	0 9	<<ME_1_Ff_Maine103	ClearcutMost_500	0.56%	0 9	<<ME_1_Ff_Maine103	Shelterwood_500	2.648%	0 9	<<ME_1_Ff_Maine103	Highgrade_500	4.431%	0 9	<<ME_1_Ff_Maine103	ThinEvenage_500	3.463%	0 9	<<ME_1_Ff_Maine103	ThinUnevenage_500	6.773%	0 9	<<ME_1_Ff_Maine104	ClearcutAll_500	0.178%	0 9	<<ME_1_Lo_Maine104	ClearcutMost_500	0.178%	0 9	<<ME_1_Lo_Maine104	Shelterwood_500	1.069%	0 9	<<ME_1_Lo_Maine104	Highgrade_500	1.12%	0 9	<<ME_1_Lo_Maine104	ThinEvenage_500	3.005%	0 9	<<ME_1_Lo_Maine104	ThinUnevenage_500	3.616%	0 9	<<ME_1_Lo_Maine105	ClearcutAll_500	0.236%	0 9	<<ME_1_St_Maine105	ClearcutMost_500	0.236%	0 9	<<ME_1_St_Maine105	Shelterwood_500	0.826%	0 9	<<ME_1_St_Maine105	ThinEvenage_500	6.808%	0 9	<<ME_1_St_Maine105	ThinUnevenage_500	6.06%	0 9	<<ME_1_St_Maine201	ClearcutAll_500	1.429%	0 9	<<NH_2_Co_south_central_NE201	ClearcutMost_500	2.111%	0 9	<<NH_2_Co_south_central_NE201	Shelterwood_500	1.188%	0 9	<<NH_2_Co_south_central_NE201	Highgrade_500	0.396%	0 9	<<NH_2_Co_south_central_NE201	ThinEvenage_500	2.397%	0 9	<<NH_2_Co_south_central_NE201	ThinUnevenage_500	0.396%	0 9	<<NH_2_Co_south_central_NE202	Shelterwood_500	0.102%	0 9	<<NH_2_Fe_south_central_NE202	Highgrade_500	0.019%	0 9	<<NH_2_Fe_south_central_NE202	ThinEvenage_500	1.88%	0 9	<<NH_2_Fe_south_central_NE202	ThinUnevenage_500	1.333%	0 9	<<NH_2_Fe_south_central_NE203	ClearcutAll_500	0.28%	0 9	<<NH_2_Ff_south_central_NE203	ClearcutMost_500	0.28%	0 9	<<NH_2_Ff_south_central_NE203	Shelterwood_500	1.324%	0 9	<<NH_2_Ff_south_central_NE203	Highgrade_500	2.215%	0 9	<<NH_2_Ff_south_central_NE203	ThinEvenage_500	1.731%	0 9	<<NH_2_Ff_south_central_NE203	ThinUnevenage_500	3.387%	0 9	<<NH_2_Ff_south_central_NE204	ClearcutAll_500	0.089%	0 9	<<NH_2_Lo_south_central_NE204	ClearcutMost_500	0.089%	0 9	<<NH_2_Lo_south_central_NE204	Shelterwood_500	0.535%	0 9	<<NH_2_Lo_south_central_NE204	Highgrade_500	0.56%	0 9	<<NH_2_Lo_south_central_NE204	ThinEvenage_500	1.502%	0 9	<<NH_2_Lo_south_central_NE204	ThinUnevenage_500	1.808%	0 9	<<NH_2_Lo_south_central_NE205	ClearcutAll_500	0.118%	0 9	<<NH_2_St_south_central_NE205	ClearcutMost_500	0.118%	0 9	<<NH_2_St_south_central_NE205	Shelterwood_500	0.413%	0 9	<<NH_2_St_south_central_NE205	ThinEvenage_500	3.404%	0 9	<<NH_2_St_south_central_NE205	ThinUnevenage_500	3.03%	0 9	<<NH_2_St_south_central_NE301	ClearcutAll_500	1.429%	0 9	<<VT_3_Co_south_central_NE301	ClearcutMost_500	2.111%	0 9	<<VT_3_Co_south_central_NE301	Shelterwood_500	1.188%	0 9	<<VT_3_Co_south_central_NE301	Highgrade_500	0.396%	0 9	<<VT_3_Co_south_central_NE301	ThinEvenage_500	2.397%	0 9	<<VT_3_Co_south_central_NE301	ThinUnevenage_500	0.396%	0 9	<<VT_3_Co_south_central_NE302	Shelterwood_500	0.102%	0 9	<<VT_3_Fe_south_central_NE302	Highgrade_500	0.019%	0 9	<<VT_3_Fe_south_central_NE302	ThinEvenage_500	1.88%	0 9	<<VT_3_Fe_south_central_NE302	ThinUnevenage_500	1.333%	0 9	<<VT_3_Fe_south_central_NE303	ClearcutAll_500	0.28%	0 9	<<VT_3_Ff_south_central_NE303	ClearcutMost_500	0.28%	0 9	<<VT_3_Ff_south_central_NE303	Shelterwood_500	1.324%	0 9	<<VT_3_Ff_south_central_NE303	Highgrade_500	2.215%	0 9	<<VT_3_Ff_south_central_NE303	ThinEvenage_500	1.731%	0 9	<<VT_3_Ff_south_central_NE303	ThinUnevenage_500	3.387%	0 9	<<VT_3_Ff_south_central_NE304	ClearcutAll_500	0.089%	0 9	<<VT_3_Lo_south_central_NE304	ClearcutMost_500	0.089%	0 9	<<VT_3_Lo_south_central_NE304	Shelterwood_500	0.535%	0 9	<<VT_3_Lo_south_central_NE304	Highgrade_500	0.56%	0 9	<<VT_3_Lo_south_central_NE304	ThinEvenage_500	1.502%	0 9	<<VT_3_Lo_south_central_NE304	ThinUnevenage_500	1.808%	0 9	<<VT_3_Lo_south_central_NE305	ClearcutAll_500	0.118%	0 9	<<VT_3_St_south_central_NE305	ClearcutMost_500	0.118%	0 9	<<VT_3_St_south_central_NE305	Shelterwood_500	0.413%	0 9	<<VT_3_St_south_central_NE305	ThinEvenage_500	3.404%	0 9	<<VT_3_St_south_central_NE305	ThinUnevenage_500	3.03%	0 9	<<VT_3_St_south_central_NE401	ClearcutAll_500	1.429%	0 9	<<MA_4_Co_south_central_NE401	ClearcutMost_500	2.111%	0 9	<<MA_4_Co_south_central_NE401	Shelterwood_500	1.188%	0 9	<<MA_4_Co_south_central_NE401	Highgrade_500	0.396%	0 9	<<MA_4_Co_south_central_NE401	ThinEvenage_500	2.397%	0 9	<<MA_4_Co_south_central_NE401	ThinUnevenage_500	0.396%	0 9	<<MA_4_Co_south_central_NE402	Shelterwood_500	0.102%	0 9	<<MA_4_Fe_south_central_NE402	Highgrade_500	0.019%	0 9	<<MA_4_Fe_south_central_NE402	ThinEvenage_500	1.88%	0 9	<<MA_4_Fe_south_central_NE402	ThinUnevenage_500	1.333%	0 9	<<MA_4_Fe_south_central_NE403	ClearcutAll_500	0.28%	0 9	<<MA_4_Ff_south_central_NE403	ClearcutMost_500	0.28%	0 9	<<MA_4_Ff_south_central_NE403	Shelterwood_500	1.324%	0 9	<<MA_4_Ff_south_central_NE403	Highgrade_500	2.215%	0 9	<<MA_4_Ff_south_central_NE403	ThinEvenage_500	1.731%	0 9	<<MA_4_Ff_south_central_NE403	ThinUnevenage_500	3.387%	0 9	<<MA_4_Ff_south_central_NE404	ClearcutAll_500	0.089%	0 9	<<MA_4_Lo_south_central_NE404	ClearcutMost_500	0.089%	0 9	<<MA_4_Lo_south_central_NE404	Shelterwood_500	0.535%	0 9	<<MA_4_Lo_south_central_NE404	Highgrade_500	0.56%	0 9	<<MA_4_Lo_south_central_NE404	ThinEvenage_500	1.502%	0 9	<<MA_4_Lo_south_central_NE404	ThinUnevenage_500	1.808%	0 9	<<MA_4_Lo_south_central_NE405	ClearcutAll_500	0.118%	0 9	<<MA_4_St_south_central_NE405	ClearcutMost_500	0.118%	0 9	<<MA_4_St_south_central_NE405	Shelterwood_500	0.413%	0 9	<<MA_4_St_south_central_NE405	ThinEvenage_500	3.404%	0 9	<<MA_4_St_south_central_NE405	ThinUnevenage_500	3.03%	0 9	<<MA_4_St_south_central_NE501	ClearcutAll_500	1.429%	0 9	<<CT_5_Co_south_central_NE501	ClearcutMost_500	2.111%	0 9	<<CT_5_Co_south_central_NE501	Shelterwood_500	1.188%	0 9	<<CT_5_Co_south_central_NE501	Highgrade_500	0.396%	0 9	<<CT_5_Co_south_central_NE501	ThinEvenage_500	2.397%	0 9	<<CT_5_Co_south_central_NE501	ThinUnevenage_500	0.396%	0 9	<<CT_5_Co_south_central_NE502	Shelterwood_500	0.102%	0 9	<<CT_5_Fe_south_central_NE502	Highgrade_500	0.019%	0 9	<<CT_5_Fe_south_central_NE502	ThinEvenage_500	1.88%	0 9	<<CT_5_Fe_south_central_NE502	ThinUnevenage_500	1.333%	0 9	<<CT_5_Fe_south_central_NE503	ClearcutAll_500	0.28%	0 9	<<CT_5_Ff_south_central_NE503	ClearcutMost_500	0.28%	0 9	<<CT_5_Ff_south_central_NE503	Shelterwood_500	1.324%	0 9	<<CT_5_Ff_south_central_NE503	Highgrade_500	2.215%	0 9	<<CT_5_Ff_south_central_NE503	ThinEvenage_500	1.731%	0 9	<<CT_5_Ff_south_central_NE503	ThinUnevenage_500	3.387%	0 9	<<CT_5_Ff_south_central_NE504	ClearcutAll_500	0.089%	0 9	<<CT_5_Lo_south_central_NE504	ClearcutMost_500	0.089%	0 9	<<CT_5_Lo_south_central_NE504	Shelterwood_500	0.535%	0 9	<<CT_5_Lo_south_central_NE504	Highgrade_500	0.56%	0 9	<<CT_5_Lo_south_central_NE504	ThinEvenage_500	1.502%	0 9	<<CT_5_Lo_south_central_NE504	ThinUnevenage_500	1.808%	0 9	<<CT_5_Lo_south_central_NE505	ClearcutAll_500	0.118%	0 9	<<CT_5_St_south_central_NE505	ClearcutMost_500	0.118%	0 9	<<CT_5_St_south_central_NE505	Shelterwood_500	0.413%	0 9	<<CT_5_St_south_central_NE505	ThinEvenage_500	3.404%	0 9	<<CT_5_St_south_central_NE505	ThinUnevenage_500	3.03%	0 9	<<CT_5_St_south_central_NE601	ClearcutAll_500	1.429%	0 9	<<RI_6_Co_south_central_NE601	ClearcutMost_500	2.111%	0 9	<<RI_6_Co_south_central_NE601	Shelterwood_500	1.188%	0 9	<<RI_6_Co_south_central_NE601	Highgrade_500	0.396%	0 9	<<RI_6_Co_south_central_NE601	ThinEvenage_500	2.397%	0 9	<<RI_6_Co_south_central_NE601	ThinUnevenage_500	0.396%	0 9	<<RI_6_Co_south_central_NE602	Shelterwood_500	0.102%	0 9	<<RI_6_Fe_south_central_NE602	Highgrade_500	0.019%	0 9	<<RI_6_Fe_south_central_NE602	ThinEvenage_500	1.88%	0 9	<<RI_6_Fe_south_central_NE602	ThinUnevenage_500	1.333%	0 9	<<RI_6_Fe_south_central_NE603	ClearcutAll_500	0.28%	0 9	<<RI_6_Ff_south_central_NE603	ClearcutMost_500	0.28%	0 9	<<RI_6_Ff_south_central_NE603	Shelterwood_500	1.324%	0 9	<<RI_6_Ff_south_central_NE603	Highgrade_500	2.215%	0 9	<<RI_6_Ff_south_central_NE603	ThinEvenage_500	1.731%	0 9	<<RI_6_Ff_south_central_NE603	ThinUnevenage_500	3.387%	0 9	<<RI_6_Ff_south_central_NE604	ClearcutAll_500	0.089%	0 9	<<RI_6_Lo_south_central_NE604	ClearcutMost_500	0.089%	0 9	<<RI_6_Lo_south_central_NE604	Shelterwood_500	0.535%	0 9	<<RI_6_Lo_south_central_NE604	Highgrade_500	0.56%	0 9	<<RI_6_Lo_south_central_NE604	ThinEvenage_500	1.502%	0 9	<<RI_6_Lo_south_central_NE604	ThinUnevenage_500	1.808%	0 9	<<RI_6_Lo_south_central_NE605	ClearcutAll_500	0.118%	0 9	<<RI_6_St_south_central_NE605	ClearcutMost_500	0.118%	0 9	<<RI_6_St_south_central_NE605	Shelterwood_500	0.413%	0 9	<<RI_6_St_south_central_NE605	ThinEvenage_500	3.404%	0 9	<<RI_6_St_south_central_NE605	ThinUnevenage_500	3.03%	0 9	<<RI_6_St_south_central_NE 
+101	ClearcutAll_500	2.859%	10 50	<<ME_1_Co_Maine101	ClearcutMost_500	4.222%	10 50	<<ME_1_Co_Maine101	Shelterwood_500	2.375%	10 50	<<ME_1_Co_Maine101	Highgrade_500	0.792%	10 50	<<ME_1_Co_Maine101	ThinEvenage_500	4.794%	10 50	<<ME_1_Co_Maine101	ThinUnevenage_500	0.792%	10 50	<<ME_1_Co_Maine102	Shelterwood_500	0.204%	10 50	<<ME_1_Fe_Maine102	Highgrade_500	0.037%	10 50	<<ME_1_Fe_Maine102	ThinEvenage_500	3.759%	10 50	<<ME_1_Fe_Maine102	ThinUnevenage_500	2.667%	10 50	<<ME_1_Fe_Maine103	ClearcutAll_500	0.56%	10 50	<<ME_1_Ff_Maine103	ClearcutMost_500	0.56%	10 50	<<ME_1_Ff_Maine103	Shelterwood_500	2.648%	10 50	<<ME_1_Ff_Maine103	Highgrade_500	4.431%	10 50	<<ME_1_Ff_Maine103	ThinEvenage_500	3.463%	10 50	<<ME_1_Ff_Maine103	ThinUnevenage_500	6.773%	10 50	<<ME_1_Ff_Maine104	ClearcutAll_500	0.178%	10 50	<<ME_1_Lo_Maine104	ClearcutMost_500	0.178%	10 50	<<ME_1_Lo_Maine104	Shelterwood_500	1.069%	10 50	<<ME_1_Lo_Maine104	Highgrade_500	1.12%	10 50	<<ME_1_Lo_Maine104	ThinEvenage_500	3.005%	10 50	<<ME_1_Lo_Maine104	ThinUnevenage_500	3.616%	10 50	<<ME_1_Lo_Maine105	ClearcutAll_500	0.236%	10 50	<<ME_1_St_Maine105	ClearcutMost_500	0.236%	10 50	<<ME_1_St_Maine105	Shelterwood_500	0.826%	10 50	<<ME_1_St_Maine105	ThinEvenage_500	6.808%	10 50	<<ME_1_St_Maine105	ThinUnevenage_500	6.06%	10 50	<<ME_1_St_Maine201	ClearcutAll_500	1.429%	10 50	<<NH_2_Co_south_central_NE201	ClearcutMost_500	2.111%	10 50	<<NH_2_Co_south_central_NE201	Shelterwood_500	1.188%	10 50	<<NH_2_Co_south_central_NE201	Highgrade_500	0.396%	10 50	<<NH_2_Co_south_central_NE201	ThinEvenage_500	2.397%	10 50	<<NH_2_Co_south_central_NE201	ThinUnevenage_500	0.396%	10 50	<<NH_2_Co_south_central_NE202	Shelterwood_500	0.102%	10 50	<<NH_2_Fe_south_central_NE202	Highgrade_500	0.019%	10 50	<<NH_2_Fe_south_central_NE202	ThinEvenage_500	1.88%	10 50	<<NH_2_Fe_south_central_NE202	ThinUnevenage_500	1.333%	10 50	<<NH_2_Fe_south_central_NE203	ClearcutAll_500	0.28%	10 50	<<NH_2_Ff_south_central_NE203	ClearcutMost_500	0.28%	10 50	<<NH_2_Ff_south_central_NE203	Shelterwood_500	1.324%	10 50	<<NH_2_Ff_south_central_NE203	Highgrade_500	2.215%	10 50	<<NH_2_Ff_south_central_NE203	ThinEvenage_500	1.731%	10 50	<<NH_2_Ff_south_central_NE203	ThinUnevenage_500	3.387%	10 50	<<NH_2_Ff_south_central_NE204	ClearcutAll_500	0.089%	10 50	<<NH_2_Lo_south_central_NE204	ClearcutMost_500	0.089%	10 50	<<NH_2_Lo_south_central_NE204	Shelterwood_500	0.535%	10 50	<<NH_2_Lo_south_central_NE204	Highgrade_500	0.56%	10 50	<<NH_2_Lo_south_central_NE204	ThinEvenage_500	1.502%	10 50	<<NH_2_Lo_south_central_NE204	ThinUnevenage_500	1.808%	10 50	<<NH_2_Lo_south_central_NE205	ClearcutAll_500	0.118%	10 50	<<NH_2_St_south_central_NE205	ClearcutMost_500	0.118%	10 50	<<NH_2_St_south_central_NE205	Shelterwood_500	0.413%	10 50	<<NH_2_St_south_central_NE205	ThinEvenage_500	3.404%	10 50	<<NH_2_St_south_central_NE205	ThinUnevenage_500	3.03%	10 50	<<NH_2_St_south_central_NE301	ClearcutAll_500	1.429%	10 50	<<VT_3_Co_south_central_NE301	ClearcutMost_500	2.111%	10 50	<<VT_3_Co_south_central_NE301	Shelterwood_500	1.188%	10 50	<<VT_3_Co_south_central_NE301	Highgrade_500	0.396%	10 50	<<VT_3_Co_south_central_NE301	ThinEvenage_500	2.397%	10 50	<<VT_3_Co_south_central_NE301	ThinUnevenage_500	0.396%	10 50	<<VT_3_Co_south_central_NE302	Shelterwood_500	0.102%	10 50	<<VT_3_Fe_south_central_NE302	Highgrade_500	0.019%	10 50	<<VT_3_Fe_south_central_NE302	ThinEvenage_500	1.88%	10 50	<<VT_3_Fe_south_central_NE302	ThinUnevenage_500	1.333%	10 50	<<VT_3_Fe_south_central_NE303	ClearcutAll_500	0.28%	10 50	<<VT_3_Ff_south_central_NE303	ClearcutMost_500	0.28%	10 50	<<VT_3_Ff_south_central_NE303	Shelterwood_500	1.324%	10 50	<<VT_3_Ff_south_central_NE303	Highgrade_500	2.215%	10 50	<<VT_3_Ff_south_central_NE303	ThinEvenage_500	1.731%	10 50	<<VT_3_Ff_south_central_NE303	ThinUnevenage_500	3.387%	10 50	<<VT_3_Ff_south_central_NE304	ClearcutAll_500	0.089%	10 50	<<VT_3_Lo_south_central_NE304	ClearcutMost_500	0.089%	10 50	<<VT_3_Lo_south_central_NE304	Shelterwood_500	0.535%	10 50	<<VT_3_Lo_south_central_NE304	Highgrade_500	0.56%	10 50	<<VT_3_Lo_south_central_NE304	ThinEvenage_500	1.502%	10 50	<<VT_3_Lo_south_central_NE304	ThinUnevenage_500	1.808%	10 50	<<VT_3_Lo_south_central_NE305	ClearcutAll_500	0.118%	10 50	<<VT_3_St_south_central_NE305	ClearcutMost_500	0.118%	10 50	<<VT_3_St_south_central_NE305	Shelterwood_500	0.413%	10 50	<<VT_3_St_south_central_NE305	ThinEvenage_500	3.404%	10 50	<<VT_3_St_south_central_NE305	ThinUnevenage_500	3.03%	10 50	<<VT_3_St_south_central_NE401	ClearcutAll_500	1.429%	10 50	<<MA_4_Co_south_central_NE401	ClearcutMost_500	2.111%	10 50	<<MA_4_Co_south_central_NE401	Shelterwood_500	1.188%	10 50	<<MA_4_Co_south_central_NE401	Highgrade_500	0.396%	10 50	<<MA_4_Co_south_central_NE401	ThinEvenage_500	2.397%	10 50	<<MA_4_Co_south_central_NE401	ThinUnevenage_500	0.396%	10 50	<<MA_4_Co_south_central_NE402	Shelterwood_500	0.102%	10 50	<<MA_4_Fe_south_central_NE402	Highgrade_500	0.019%	10 50	<<MA_4_Fe_south_central_NE402	ThinEvenage_500	1.88%	10 50	<<MA_4_Fe_south_central_NE402	ThinUnevenage_500	1.333%	10 50	<<MA_4_Fe_south_central_NE403	ClearcutAll_500	0.28%	10 50	<<MA_4_Ff_south_central_NE403	ClearcutMost_500	0.28%	10 50	<<MA_4_Ff_south_central_NE403	Shelterwood_500	1.324%	10 50	<<MA_4_Ff_south_central_NE403	Highgrade_500	2.215%	10 50	<<MA_4_Ff_south_central_NE403	ThinEvenage_500	1.731%	10 50	<<MA_4_Ff_south_central_NE403	ThinUnevenage_500	3.387%	10 50	<<MA_4_Ff_south_central_NE404	ClearcutAll_500	0.089%	10 50	<<MA_4_Lo_south_central_NE404	ClearcutMost_500	0.089%	10 50	<<MA_4_Lo_south_central_NE404	Shelterwood_500	0.535%	10 50	<<MA_4_Lo_south_central_NE404	Highgrade_500	0.56%	10 50	<<MA_4_Lo_south_central_NE404	ThinEvenage_500	1.502%	10 50	<<MA_4_Lo_south_central_NE404	ThinUnevenage_500	1.808%	10 50	<<MA_4_Lo_south_central_NE405	ClearcutAll_500	0.118%	10 50	<<MA_4_St_south_central_NE405	ClearcutMost_500	0.118%	10 50	<<MA_4_St_south_central_NE405	Shelterwood_500	0.413%	10 50	<<MA_4_St_south_central_NE405	ThinEvenage_500	3.404%	10 50	<<MA_4_St_south_central_NE405	ThinUnevenage_500	3.03%	10 50	<<MA_4_St_south_central_NE501	ClearcutAll_500	1.429%	10 50	<<CT_5_Co_south_central_NE501	ClearcutMost_500	2.111%	10 50	<<CT_5_Co_south_central_NE501	Shelterwood_500	1.188%	10 50	<<CT_5_Co_south_central_NE501	Highgrade_500	0.396%	10 50	<<CT_5_Co_south_central_NE501	ThinEvenage_500	2.397%	10 50	<<CT_5_Co_south_central_NE501	ThinUnevenage_500	0.396%	10 50	<<CT_5_Co_south_central_NE502	Shelterwood_500	0.102%	10 50	<<CT_5_Fe_south_central_NE502	Highgrade_500	0.019%	10 50	<<CT_5_Fe_south_central_NE502	ThinEvenage_500	1.88%	10 50	<<CT_5_Fe_south_central_NE502	ThinUnevenage_500	1.333%	10 50	<<CT_5_Fe_south_central_NE503	ClearcutAll_500	0.28%	10 50	<<CT_5_Ff_south_central_NE503	ClearcutMost_500	0.28%	10 50	<<CT_5_Ff_south_central_NE503	Shelterwood_500	1.324%	10 50	<<CT_5_Ff_south_central_NE503	Highgrade_500	2.215%	10 50	<<CT_5_Ff_south_central_NE503	ThinEvenage_500	1.731%	10 50	<<CT_5_Ff_south_central_NE503	ThinUnevenage_500	3.387%	10 50	<<CT_5_Ff_south_central_NE504	ClearcutAll_500	0.089%	10 50	<<CT_5_Lo_south_central_NE504	ClearcutMost_500	0.089%	10 50	<<CT_5_Lo_south_central_NE504	Shelterwood_500	0.535%	10 50	<<CT_5_Lo_south_central_NE504	Highgrade_500	0.56%	10 50	<<CT_5_Lo_south_central_NE504	ThinEvenage_500	1.502%	10 50	<<CT_5_Lo_south_central_NE504	ThinUnevenage_500	1.808%	10 50	<<CT_5_Lo_south_central_NE505	ClearcutAll_500	0.118%	10 50	<<CT_5_St_south_central_NE505	ClearcutMost_500	0.118%	10 50	<<CT_5_St_south_central_NE505	Shelterwood_500	0.413%	10 50	<<CT_5_St_south_central_NE505	ThinEvenage_500	3.404%	10 50	<<CT_5_St_south_central_NE505	ThinUnevenage_500	3.03%	10 50	<<CT_5_St_south_central_NE601	ClearcutAll_500	1.429%	10 50	<<RI_6_Co_south_central_NE601	ClearcutMost_500	2.111%	10 50	<<RI_6_Co_south_central_NE601	Shelterwood_500	1.188%	10 50	<<RI_6_Co_south_central_NE601	Highgrade_500	0.396%	10 50	<<RI_6_Co_south_central_NE601	ThinEvenage_500	2.397%	10 50	<<RI_6_Co_south_central_NE601	ThinUnevenage_500	0.396%	10 50	<<RI_6_Co_south_central_NE602	Shelterwood_500	0.102%	10 50	<<RI_6_Fe_south_central_NE602	Highgrade_500	0.019%	10 50	<<RI_6_Fe_south_central_NE602	ThinEvenage_500	1.88%	10 50	<<RI_6_Fe_south_central_NE602	ThinUnevenage_500	1.333%	10 50	<<RI_6_Fe_south_central_NE603	ClearcutAll_500	0.28%	10 50	<<RI_6_Ff_south_central_NE603	ClearcutMost_500	0.28%	10 50	<<RI_6_Ff_south_central_NE603	Shelterwood_500	1.324%	10 50	<<RI_6_Ff_south_central_NE603	Highgrade_500	2.215%	10 50	<<RI_6_Ff_south_central_NE603	ThinEvenage_500	1.731%	10 50	<<RI_6_Ff_south_central_NE603	ThinUnevenage_500	3.387%	10 50	<<RI_6_Ff_south_central_NE604	ClearcutAll_500	0.089%	10 50	<<RI_6_Lo_south_central_NE604	ClearcutMost_500	0.089%	10 50	<<RI_6_Lo_south_central_NE604	Shelterwood_500	0.535%	10 50	<<RI_6_Lo_south_central_NE604	Highgrade_500	0.56%	10 50	<<RI_6_Lo_south_central_NE604	ThinEvenage_500	1.502%	10 50	<<RI_6_Lo_south_central_NE604	ThinUnevenage_500	1.808%	10 50	<<RI_6_Lo_south_central_NE605	ClearcutAll_500	0.118%	10 50	<<RI_6_St_south_central_NE605	ClearcutMost_500	0.118%	10 50	<<RI_6_St_south_central_NE605	Shelterwood_500	0.413%	10 50	<<RI_6_St_south_central_NE605	ThinEvenage_500	3.404%	10 50	<<RI_6_St_south_central_NE605	ThinUnevenage_500	3.03%	10 50	<<RI_6_St_south_central_NE 
+ 
+>>Harvest Outputs
+>> ----------------------------------------------------------------------------------------------------------------------------------
+PrescriptionMaps	harvest/harvest_prescripts_{timestep}.img 
+BiomassMaps	harvest/harvest_biomass_removed_{timestep}.img
+EventLog	harvest/harvest_log.csv
+SummaryLog	harvest/harvest_summary_log.csv
+>> Last Line of Harvest File
